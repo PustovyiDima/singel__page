@@ -8,6 +8,7 @@ body{
 	height: 3350px;
 	overflow-x: hidden;
 	margin: 0 auto;
+
 }
 
 .hddr{
@@ -113,8 +114,6 @@ body{
 	border-radius: 10px;
 	background-color: #ffffff;
 	padding-left: 20px;
-
-	
 	color: #b4adad;
 	font-family: "Open Sans";
 	font-size: 15px;
@@ -122,17 +121,19 @@ body{
 	line-height: 23px;
 
 }
-input:focus{
-	outline: none;
-}
+
+
+
+
 #call_to_btn:focus{
 	outline: none;
 	border: 1px solid blue;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .hddr__call_to__input:focus{
-	border: 1px solid blue;
+	outline: none;
+	border: 1px dotted green;
 	border-radius: 10px;
 }
 .hddr__call_to__img{
@@ -356,7 +357,7 @@ input:focus{
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 23px;
-	overflow: scroll;
+	overflow: hidden;
 }
 .section__2__btn{
 	width: 196px;
@@ -421,6 +422,7 @@ input:focus{
 	height: 66px;
 	border: none;
 	border-radius: 100%;
+	background: url('./img/click.png');
 
 }
 #contact__form__btn:focus{
@@ -450,6 +452,10 @@ input:focus{
 	font-size: 14px;
 	font-weight: 400;
 	padding: 10px 20px;
+}
+
+input:focus,textarea:focus{
+	outline: green solid 1px;
 }
 
 footer{
